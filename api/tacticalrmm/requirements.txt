@@ -8,10 +8,10 @@ channels_redis==4.3.0
 cryptography==50.0.2
 Django==4.2.30
 django-cors-headers==4.9.0
-django-allauth[socialaccount]==65.2.0
+django-allauth[socialaccount]==65.14.1
 django-filter==25.1
 django-rest-knox==4.2.0
-djangorestframework==3.15.2
+djangorestframework==3.17.2
 drf-spectacular==0.29.0
 meshctrl==0.1.15
 msgpack==1.2.3
@@ -28,7 +28,7 @@ qrcode==8.2
 redis==6.4.0
 requests==2.34.2
 six==1.17.0
-sqlparse==0.5.3
+sqlparse==0.6.0
 tldextract==5.3.2
 twilio==8.13.0
 urllib3==2.8.0
@@ -45,3 +45,9 @@ Markdown==3.10.3
 plotly==6.5.0
 weasyprint==70.0
 ocxsect==0.1.5
+# transitive deps pinned for security fixes
+aiohttp==3.14.4
+filelock==4.2.1
+multidict==6.9.1
+pillow==13.0.0
+PyJWT==2.15.0
